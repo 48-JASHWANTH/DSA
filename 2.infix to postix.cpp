@@ -38,7 +38,7 @@ int main(){
     j=0;
     for(i=0;infix[i]!='\0';i++){
         if(infix[i]=='('){
-            push(stack[i]);
+            push(infix[i]);
         }
         else if(isalpha(infix[i])){
             postfix[j++]=infix[i];
