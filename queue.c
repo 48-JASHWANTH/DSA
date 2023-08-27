@@ -36,7 +36,7 @@ void display(){
          printf("queue is empty\n");          
      }     
      else{
-          for(i=0;i<=rear;i++){
+          for(i=front;i<=rear;i++){
               printf("%d ",queue[i]);
           }     
           printf("\n");
