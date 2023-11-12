@@ -2,6 +2,7 @@
 #define size 3
 int stack[size],top=-1;
 
+//using it for git and git hub lol/.
 void push(int ele){
 	if(top==size-1){
 		printf("stack is overflown\n");
